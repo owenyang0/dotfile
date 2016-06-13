@@ -1,0 +1,5 @@
+Host aws
+  HostName server
+  User user
+  IdentityFile ~/.ssh/id_rsa
+

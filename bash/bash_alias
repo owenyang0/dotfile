@@ -1,0 +1,33 @@
+# shortcuts
+alias ll='ls -al'
+alias la='ls -a'
+alias .='cd --'
+
+# node harmony
+# alias n='node --harmony'
+
+# babel
+alias ba='babel'
+alias n='babel-node'
+
+alias b='cd ..'
+
+# tldr
+alias t=tldr
+
+# hub
+# alias git='hub'
+
+# vim 7.4+
+alias v='/usr/local/bin/vim'
+alias m='/usr/local/bin/mvim'
+
+# tmux - create new session named work
+alias tm='tmux new -s work'
+alias tn='tmux new -s'
+
+# docker
+if [ -f ~/config/bash/alias_docker ]; then
+  # echo 'alias: docker loaded'
+  source ~/config/bash/alias_docker
+fi

@@ -1,0 +1,26 @@
+#! /bin/bash
+
+# github 
+# ssh -T git@github.com
+ln -s ~/config/.ssh ~/.ssh
+
+# git
+ln -s ~/config/git/.gitconfig ~/.gitconfig
+
+# vim
+ln -s ~/config/vim/.vimrc ~/.vimrc
+# ln -s ~/config/vim/vimrc.bundles ~/.vimrc.bundles
+# ln -s ~/config/vim/.vim/doc ~/.vim/doc
+# ln -s ~/config/vim/.vim/plugin ~/.vim/plugin
+# ln -s ~/config/vim/.vim/nerdtree_plugin ~/.vim/nerdtree_plugin
+# ln -s ~/config/vim/.vim/syntax ~/.vim/syntax
+ln -s ~/config/vim/.vim ~/.vim
+
+# bash_profile
+ln -s ~/config/bash/bash_all ~/bash_all
+
+# tmux
+ln -s ~/config/tmux/tmux.conf ~/.tmux.conf
+
+# zsh
+ln -s ~/config/themes/agnoster.zsh-theme ~/.oh-my-zsh/themes/agnoster.zsh-theme

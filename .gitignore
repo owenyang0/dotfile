@@ -1,0 +1,10 @@
+# github id_rsa
+.ssh/
+
+# .vim
+.netrwhist
+vim/.vim/bundle/*
+.DS_Store
+
+# ignore
+*.i

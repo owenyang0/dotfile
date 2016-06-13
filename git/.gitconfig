@@ -1,0 +1,32 @@
+[push]
+	default = simple
+
+[user]
+	email = usay@outlook.com
+	name = Owen Yang
+
+[alias]
+	st = status -s
+	s  = status
+	br = branch
+	cm = commit -m
+	co = checkout
+        lg = log --graph --decorate --abbrev-commit --date=relative
+  l = log --graph --all --decorate --pretty=format:'%Cred%h%Creset[%cn] -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	pr = pull --rebase
+
+[core]
+	pager = less
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[credential]
+	helper = cache
+[rerere]
+	enabled = true
+[diff]
+	tool = vimdiff

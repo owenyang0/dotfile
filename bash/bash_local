@@ -1,0 +1,53 @@
+# color
+export CLICOLOR=1
+
+# bash-completion
+# Add the following lines to your ~/.bash_profile:
+#  if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#    . $(brew --prefix)/etc/bash_completion
+#  fi
+
+# git auto complete
+# bash
+# if [ -f ~/config/git/.git-completion.bash ]; then
+# 	source ~/config/git/.git-completion.bash
+# fi
+
+# zsh
+# if [ -f ~/config/git/git-completion.zsh ]; then
+# 	source ~/config/git/git-completion.zsh
+# fi
+
+# gradle config
+GRADLE_HOME=~/.opt/gradle-2.0
+export GRADLE_HOME
+export PATH=$PATH:$GRADLE_HOME/bin
+
+# mysql config
+export PATH=$PATH:/usr/local/mysql/bin
+
+# psql config
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+
+export PATH=$PATH:~/.opt/apache-tomcat-7.0.54/bin
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# JAVA
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
+# lib home
+export LIB_HOME=$HOME/bin
+
+# nvm config
+USER_NAME=songyang
+NVM_DIR=/Users/$USER_NAME/.nvm
+[[ -s $NVM_DIR/nvm.sh ]] && source $NVM_DIR/nvm.sh
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export GHC_DOT_APP="/Applications/ghc-7.8.4.app"
+if [ -d "$GHC_DOT_APP" ]; then
+  export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
+fi

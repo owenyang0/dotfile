@@ -1,0 +1,27 @@
+# Variables
+#
+CONFIG=$HOME/config/bash
+
+# Local
+#
+if [ -f ${CONFIG}/bash_local ]; then
+  # echo 'bash: local loaded'
+  source ${CONFIG}/bash_local
+fi
+
+# Functions
+#
+# Some people use a different file for functions
+# if [ -f ${CONFIG}/bash_functions ]; then
+#   # echo 'bash: functions loaded'
+#   source ${CONFIG}/bash_functions
+# fi
+
+# Alias
+#
+if [ -f ${CONFIG}/bash_alias ]; then
+  # echo 'bash: alias loaded'
+  source ${CONFIG}/bash_alias
+fi
+
+unset CONFIG

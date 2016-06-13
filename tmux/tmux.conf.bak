@@ -1,0 +1,65 @@
+#将r键设置为加载配置文件，并显示"reloaded!"信息  
+bind r source-file ~/.tmux.conf \; display "Reloaded!" 
+
+# #设置前缀为Ctrl + a
+set -g prefix C-c
+# #解除Ctrl + b 与前缀的对应关系
+# unbind C-b
+
+#up
+bind-key k select-pane -U
+#down
+bind-key j select-pane -D
+#left
+bind-key h select-pane -L
+#right
+bind-key l select-pane -R
+
+#select last window
+bind-key ^l select-window -l
+
+#copy-mode 将快捷键设置为vi 模式
+setw -g mode-keys vi
+
+#定制状态行
+set -g status-left "#[fg=white,bg=blue] [#I] #[default] |" # 0:bash
+set kg status-right "#[fg=yellow,bright][ #[fg=cyan]#W #[fg=yellow]]#[default] #[fg=yellow,bright]- %Y.%m.%d #[fg=green]%H:%M #[default]"
+set -g status-right-attr bright
+
+set -g status-bg black
+set -g status-fg white
+set -g set-clipboard on
+
+setw -g window-status-current-attr bright
+setw -g window-status-current-bg red
+setw -g window-status-current-bg green
+setw -g window-status-current-fg white
+
+set -g status-utf8 on
+set -g status-interval 1
+
+set -g visual-activity on
+setw -g monitor-activity on
+
+# 水平或垂直分割窗口
+unbind '"'
+bind v splitw -v #分割成上下两个窗口
+unbind %
+bind ^h splitw -h #分割成左右两个窗口
+
+# 启动用鼠标
+setw -g mode-mouse on
+set -g mouse-select-pane on
+set -g mouse-resize-pane on
+set -g mouse-select-window on
+
+new-session -s work  # 新建名为 work 的会话，并启动 mutt
+
+ # show host name and IP address on left side of status bar
+    set -g status-left-length 70
+    set -g status-left "#[fg=green]: #h : #[fg=brightblue]#(curl icanhazip.com) #[fg=yellow]#(ifconfig en0 | grep 'inet ' | awk '{print \"en0 \" $2}') #(ifconfig en1 | grep 'inet ' | awk '{print \"en1 \" $2}') #[fg=red]#(ifconfig tun0 | grep 'inet ' | awk '{print \"vpn \" $2}') "
+
+    # show session name, window & pane number, date and time on right side of
+    # status bar
+    set -g status-right-length 60
+    set -g status-right "#[fg=blue]#S #I:#P #[fg=yellow]:: %d %b %Y #[fg=green]:: %l:%M %p :: #(date -u | awk '{print $4}')::"
