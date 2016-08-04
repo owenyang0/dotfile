@@ -1,5 +1,6 @@
 " don't bother with vi compatibility
 set nocompatible
+set autoread
 
 " enable syntax highlighting
 syntax enable
