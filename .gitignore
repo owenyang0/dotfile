@@ -8,3 +8,4 @@ vim/.vim/bundle/*
 
 # ignore
 *.i
+bash/bash_secure

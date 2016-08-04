@@ -1,13 +1,13 @@
 # Variables
 #
-CONFIG=$HOME/config/bash
+CONFIG=$HOME/dotfile/bash
 
 # Local
 #
-if [ -f ${CONFIG}/bash_local ]; then
-  # echo 'bash: local loaded'
-  source ${CONFIG}/bash_local
-fi
+# if [ -f ${CONFIG}/bash_local ]; then
+#   # echo 'bash: local loaded'
+#   source ${CONFIG}/bash_local
+# fi
 
 # Functions
 #
@@ -18,7 +18,7 @@ fi
 # fi
 
 # Alias
-#
+
 if [ -f ${CONFIG}/bash_alias ]; then
   # echo 'bash: alias loaded'
   source ${CONFIG}/bash_alias

@@ -35,7 +35,7 @@ export LANG=en_US.UTF-8
 
 # JAVA
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
 # lib home
 export LIB_HOME=$HOME/bin

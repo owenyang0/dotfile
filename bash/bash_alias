@@ -1,5 +1,5 @@
 # shortcuts
-alias ll='ls -al'
+alias ll='ls -ahl'
 alias la='ls -a'
 alias .='cd --'
 
@@ -20,7 +20,6 @@ alias t=tldr
 
 # vim 7.4+
 alias v='/usr/local/bin/vim'
-alias m='/usr/local/bin/mvim'
 
 # tmux - create new session named work
 alias tm='tmux new -s work'

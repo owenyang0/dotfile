@@ -1,0 +1,154 @@
+# Rime user dictionary
+#@/db_name	wubi86.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	194
+#@/user_id	song-mbp
+bb 	子	c=1 d=0.913931 t=194
+bn 	也	c=4 d=2.43106 t=194
+bnqe 	也钥	c=1 d=0.50409 t=194
+d 	在	c=7 d=3.58085 t=194
+dgip 	感觉	c=1 d=0.798516 t=194
+e 	有	c=2 d=0.991128 t=194
+erfq 	遥远	c=2 d=0.947516 t=194
+f 	地	c=1 d=0.486752 t=194
+fbyy 	地方	c=2 d=0.986185 t=194
+fcu 	去	c=1 d=0.489192 t=194
+g 	一	c=6 d=3.26887 t=194
+gh 	下	c=1 d=0.522046 t=194
+gip 	还	c=1 d=0.802519 t=194
+gmdh 	现在	c=6 d=4.22294 t=194
+gmf 	再	c=2 d=0.942448 t=194
+go 	来	c=1 d=0.778801 t=194
+i 	不	c=1 d=0.810584 t=194
+ih 	小	c=2 d=1.00611 t=194
+j 	是	c=9 d=6.40428 t=194
+jfd 	里	c=3 d=1.61223 t=194
+jsi 	果	c=2 d=1.91238 t=194
+k 	中	c=1 d=0.433874 t=194
+kb 	啊	c=1 d=0.826959 t=194
+kc 	吧	c=1 d=0.782705 t=194
+kcg 	吗	c=2 d=1.20602 t=194
+knx 	呢	c=1 d=0.644036 t=194
+ni 	悄	c=1 d=0.537944 t=194
+nyp 	迟	c=1 d=0.839457 t=194
+p 	这	c=15 d=8.55334 t=194
+qaj 	错	c=1 d=0.814647 t=194
+qeg 	钥	c=1 d=0.494109 t=194
+r 	的	c=7 d=5.14168 t=194
+sk 	可	c=1 d=0.83527 t=194
+skny 	可以	c=2 d=1.61389 t=194
+su 	样	c=5 d=3.99414 t=194
+subb 	样子	c=1 d=0.67032 t=194
+uqw 	次	c=1 d=0.481909 t=194
+vb 	好	c=1 d=0.440432 t=194
+vbn 	她	c=1 d=0.412714 t=194
+vdvy 	姑娘	c=1 d=0.410656 t=194
+vk 	如	c=2 d=1.90284 t=194
+wftc 	什么	c=1 d=0.463013 t=194
+wh 	个	c=3 d=1.62298 t=194
+wjg 	但	c=1 d=0.927743 t=194
+wq 	你	c=2 d=1.07586 t=194
+wu 	们	c=2 d=1.06855 t=194
+ytd 	话	c=1 d=0.923116 t=194
+yu 	说	c=2 d=1.16811 t=194
+encbbrq 	子的	c=0 d=0.0918512 t=194
+encbnqe 	也钥	c=1 d=0.499074 t=194
+encbqgg 	也钥一	c=1 d=0.511709 t=194
+encbryt 	子的话	c=0 d=0.0923116 t=194
+encdegg 	有一	c=0 d=0.0591555 t=194
+encdgwh 	有一个	c=0 d=0.0594521 t=194
+encdgwi 	有一个小	c=0 d=0.0597501 t=194
+encdhyp 	在这	c=0 d=0.0609571 t=194
+encdigi 	感觉还	c=0 d=0.0802519 t=194
+encdigj 	感觉还是	c=0 d=0.0806541 t=194
+encdyjf 	在这里	c=0 d=0.0559898 t=194
+encefrq 	遥远的	c=1 d=0.582748 t=194
+encfbfc 	地去	c=0 d=0.0489192 t=194
+encfbqe 	去也钥	c=0 d=0.0499074 t=194
+encffbq 	地去也钥	c=0 d=0.0499074 t=194
+encfyde 	地方有	c=0 d=0.0402524 t=194
+encfydg 	地方有一	c=0 d=0.0404542 t=194
+encgddh 	现在在	c=0 d=0.0606531 t=194
+encgddy 	现在在这	c=0 d=0.0609571 t=194
+encgdsn 	现在可以	c=1 d=0.895834 t=194
+encgdsn 	现在可迟	c=0 d=0.0856415 t=194
+encgdyp 	现在这	c=0 d=0.066365 t=194
+encgdys 	现在这样	c=0 d=0.0666977 t=194
+encgdyw 	现在这个	c=0 d=0.0621885 t=194
+encgdyw 	现在这们	c=0 d=0.065377 t=194
+encgggh 	一下	c=0 d=0.0522046 t=194
+encggsu 	一样	c=0 d=0.0771052 t=194
+encgguq 	一次	c=0 d=0.0481909 t=194
+encgguq 	再一次	c=0 d=0.0481909 t=194
+encggwh 	一个	c=0 d=0.0594521 t=194
+encgijg 	还是	c=0 d=0.0806541 t=194
+encgiqa 	不错	c=0 d=0.0814647 t=194
+encgjgi 	还是不	c=0 d=0.0810584 t=194
+encgjgq 	还是不错	c=0 d=0.0814647 t=194
+encgmgg 	再一	c=0 d=0.0479505 t=194
+encgokc 	来吧	c=0 d=0.0782705 t=194
+encgqrq 	不错的	c=0 d=0.0818731 t=194
+encgsjg 	一样是	c=0 d=0.0774916 t=194
+encgwih 	一个小	c=0 d=0.0597501 t=194
+encjefr 	里遥远的	c=0 d=0.0582748 t=194
+encjggi 	是不	c=0 d=0.0810584 t=194
+encjgkc 	是吗	c=0 d=0.0763379 t=194
+encjgqa 	是不错	c=0 d=0.0814647 t=194
+encjgqr 	是不错的	c=0 d=0.0818731 t=194
+encjgyp 	是这	c=0 d=0.0449329 t=194
+encjsnr 	是可以的	c=0 d=0.0755784 t=194
+encjwtg 	是什么再	c=0 d=0.0474734 t=194
+encjyyj 	是这这是	c=0 d=0.0453845 t=194
+encjyyp 	是这这	c=0 d=0.0451581 t=194
+encnidh 	悄在	c=1 d=0.548812 t=194
+encqarq 	错的	c=0 d=0.0818731 t=194
+encrbrq 	的子的	c=0 d=0.0918512 t=194
+encrbry 	的子的话	c=0 d=0.0923116 t=194
+encrdig 	的感觉还	c=0 d=0.0802519 t=194
+encrdip 	的感觉	c=0 d=0.0798516 t=194
+encrqbb 	的子	c=0 d=0.0913931 t=194
+encrqyt 	的话	c=0 d=0.0923116 t=194
+encsbbj 	样子也是	c=0 d=0.0740818 t=194
+encsbbn 	样子也	c=1 d=0.737123 t=194
+encskny 	可迟	c=1 d=0.856415 t=194
+encsnrj 	可以的是	c=0 d=0.0759572 t=194
+encsnrq 	可以的	c=1 d=0.755784 t=194
+encsnsu 	可迟样	c=0 d=0.0860708 t=194
+encsrbb 	样的子	c=0 d=0.0913931 t=194
+encsrbr 	样的子的	c=0 d=0.0918512 t=194
+encsrdi 	样的感觉	c=0 d=0.0798516 t=194
+encssbb 	样样子也	c=0 d=0.0737123 t=194
+encsujg 	样是	c=0 d=0.0774916 t=194
+encsurq 	样的	c=0 d=0.0909373 t=194
+encvbkc 	好吗	c=0 d=0.0442639 t=194
+encvbwu 	她们	c=0 d=0.0414783 t=194
+encvjjg 	如果是	c=0 d=0.1 t=194
+encvkjs 	如果	c=1 d=0.995012 t=194
+encvwdh 	她们在	c=0 d=0.0416862 t=194
+encvwdy 	她们在这	c=0 d=0.0418952 t=194
+encwdyj 	们在这里	c=0 d=0.0421052 t=194
+encwdyp 	们在这	c=0 d=0.0418952 t=194
+encwhih 	个小	c=0 d=0.0597501 t=194
+encwqvb 	你好	c=0 d=0.0440432 t=194
+encwqyu 	你说	c=0 d=0.0640824 t=194
+encwtgg 	什么再再	c=0 d=0.0477114 t=194
+encwtgm 	什么再	c=1 d=0.474734 t=194
+encwudh 	们在	c=0 d=0.0416862 t=194
+encwvjj 	但如果是	c=0 d=0.0960789 t=194
+encwvjs 	但如果	c=0 d=0.0955997 t=194
+encwvkc 	你好吗	c=0 d=0.0442639 t=194
+encwykn 	你说呢	c=0 d=0.0644036 t=194
+encyefr 	这遥远的	c=0 d=0.0398519 t=194
+encyjyp 	这是这	c=0 d=0.0449329 t=194
+encyjyy 	这是这这	c=0 d=0.0451581 t=194
+encypjf 	这里	c=0 d=0.0631284 t=194
+encypjg 	这是	c=0 d=0.0460704 t=194
+encypsu 	这样	c=0 d=0.0904837 t=194
+encypwh 	这个	c=0 d=0.0621885 t=194
+encypwu 	这们	c=0 d=0.065377 t=194
+encypyp 	这这	c=0 d=0.0451581 t=194
+encysrb 	这样的子	c=0 d=0.0913931 t=194
+encysrq 	这样的	c=0 d=0.0909373 t=194
+encyukn 	说呢	c=0 d=0.0644036 t=194
+encyyjg 	这这是	c=0 d=0.0453845 t=194

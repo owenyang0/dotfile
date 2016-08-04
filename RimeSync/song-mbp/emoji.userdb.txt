@@ -1,0 +1,8 @@
+# Rime user dictionary
+#@/db_name	emoji.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	2
+#@/user_id	song-mbp
+angry,bad;biao'qing 	😡	c=1 d=1 t=2
+laugh,happy;biao'qing 	😂	c=1 d=0.995012 t=2

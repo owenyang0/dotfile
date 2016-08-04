@@ -46,8 +46,8 @@ set wildmode=longest,list,full
 
 " 启用鼠标浏览
 set mouse=a
-" colorscheme elflord
-colorscheme solarized
+colorscheme elflord
+" colorscheme solarized
 " colorscheme delek
 
 " Enable basic mouse behavior such as resizing buffers.

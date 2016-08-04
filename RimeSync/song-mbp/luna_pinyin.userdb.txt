@@ -1,0 +1,13 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	6
+#@/user_id	song-mbp
+ge 	個	c=1 d=0.99005 t=6
+he li 	合理	c=0 d=0.099005 t=6
+he li lo 	合理咯	c=2 d=1.99501 t=6
+jiu 	就	c=1 d=0.985112 t=6
+lo 	咯	c=0 d=0.099005 t=6
+pa 	怕	c=1 d=0.980199 t=6
+wu bi 	五筆	c=1 d=1 t=6
