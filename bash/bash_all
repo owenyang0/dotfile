@@ -4,10 +4,10 @@ CONFIG=$HOME/dotfile/bash
 
 # Local
 #
-# if [ -f ${CONFIG}/bash_local ]; then
-#   # echo 'bash: local loaded'
-#   source ${CONFIG}/bash_local
-# fi
+if [ -f ${CONFIG}/bash_local ]; then
+  # echo 'bash: local loaded'
+  source ${CONFIG}/bash_local
+fi
 
 # Functions
 #
