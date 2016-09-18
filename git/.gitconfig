@@ -11,14 +11,13 @@
 	br = branch
 	cm = commit -m
 	co = checkout
-        lg = log --graph --decorate --abbrev-commit --date=relative
-  l = log --graph --all --decorate --pretty=format:'%Cred%h%Creset[%cn] -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+        l = log --graph --all --decorate --pretty=format:'%Cred%h%Creset[%cn] -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	pr = pull --rebase
 
 [core]
 	pager = less
 	autocrlf = input
-	excludesfile = ~/.gitignore_global
+	excludesfile = /Users/songyang/.gitignore_global
 [color]
 	status = auto
 	diff = auto

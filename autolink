@@ -6,6 +6,7 @@
 
 # git
 ln -s ~/dotfile/git/.gitconfig ~/.gitconfig
+ln -s ~/dotfile/git/gitignore_global ~/.gitignore_global
 
 # vim
 ln -s ~/dotfile/vim/.vimrc ~/.vimrc
