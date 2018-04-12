@@ -1,3 +1,6 @@
 .ssh/
 bash/bash_secure
 .DS_Store
+typings/
+.vscode/
+typings.json

@@ -10,6 +10,7 @@ ln -s ~/dotfile/git/gitignore_global ~/.gitignore_global
 
 # vim
 ln -s ~/dotfile/vim/.vimrc ~/.vimrc
+# ln -s ~/dotfile/vim/.ideavimrc ~/.ideavimrc
 # ln -s ~/dotfile/vim/vimrc.bundles ~/.vimrc.bundles
 # ln -s ~/dotfile/vim/.vim/doc ~/.vim/doc
 # ln -s ~/dotfile/vim/.vim/plugin ~/.vim/plugin
@@ -25,3 +26,6 @@ ln -s ~/dotfile/bash/bash_all ~/bash_all
 
 # zsh
 # ln -s ~/dotfile/themes/agnoster.zsh-theme ~/.oh-my-zsh/themes/agnoster.zsh-theme
+
+# proxy
+# ln -s ~/dotfile/bash/proxy.sh /usr/local/bin/tpx.sh
