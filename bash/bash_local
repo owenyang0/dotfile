@@ -37,12 +37,20 @@ export LANG=en_US.UTF-8
 export PATH=$PATH:/Users/songyang/bin/apache-ant-1.8.4/bin
 
 # JAVA
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
-# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
+## Groovy home
+# export GROOVY_HOME=/usr/local/opt/groovy/libexec
+# export PATH=$PATH:$GROOVY_HOME/bin
 
 # lib home
 export LIB_HOME=$HOME/bin
+
+## Android HOME
+# export ANDROID_HOME=~/Library/Android/sdk
+# export PATH=${PATH}:${ANDROID_HOME}/tools
 
 # nvm config
 USER_NAME=songyang

@@ -19,7 +19,8 @@ alias t=tldr
 # hub
 # alias git='hub'
 
-# vim 7.4+
+# macvim
+alias m='/usr/local/bin/mvim'
 alias v='/usr/local/bin/vim'
 
 # tmux - create new session named work
