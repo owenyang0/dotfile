@@ -1,0 +1,5 @@
+set relativenumber
+set number
+set surround
+set ignorecase
+set smartcase

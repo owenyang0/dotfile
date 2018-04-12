@@ -9,15 +9,13 @@ syntax enable
 filetype on " without this vim emits a zero exit status, later, because of :ft off
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#rc()
+call vundle#begin()
 
-" install Vundle bundles
-if filereadable(expand("~/.vimrc.bundles.local"))
-"  source ~/.vimrc.bundles
-  source ~/.vimrc.bundles.local
+if filereadable(expand("~/dotfile/vim/vimrc.bundles"))
+  source ~/dotfile/vim/vimrc.bundles
 endif
 
-" ensure ftdetect et al work by including this after the Vundle stuff
+call vundle#end()
 filetype plugin indent on
 
 set autoindent
@@ -33,23 +31,24 @@ set incsearch                                                " search as you typ
 set laststatus=2                                             " always show statusline
 set list                                                     " show trailing whitespace
 set listchars=tab:▸\ ,trail:▫
-set number                                                   " show line numbers
+set relativenumber                                           " show relative line numbers
+set number                                           " show relative line numbers
 set ruler                                                    " show where you are
 set scrolloff=3                                              " show context above/below cursorline
 set shiftwidth=2                                             " normal mode indentation commands use 2 spaces
 set showcmd
 set smartcase                                                " case-sensitive search if any caps
 set softtabstop=2                                            " insert mode tab and backspace use 2 spaces
-set tabstop=8                                                " actual tabs occupy 8 characters
+set tabstop=4                                                " actual tabs occupy 8 characters
 set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 set wildmenu                                                 " show a navigable menu for tab completion
 set wildmode=longest,list,full
 
 " 启用鼠标浏览
 set mouse=a
-colorscheme elflord
+" colorscheme elflord
 " colorscheme solarized
-" colorscheme delek
+colorscheme delek
 
 " Enable basic mouse behavior such as resizing buffers.
 set mouse=a
@@ -87,7 +86,7 @@ inoremap <leader>n <ESC>:bn<CR>
 " in case you forgot to sudo
 cnoremap w!! %!sudo tee > /dev/null %
 
-inoremap ow <ESC>
+" inoremap ow <ESC>
 
 " 搜索逐字符高亮
 set hlsearch
@@ -107,9 +106,13 @@ else
 endif
 
 " NerdTree
-" let NERDTreeIgnore = ['node_modules']
-" let g:NERDTreeIgnore=['node_modules$[[dir]]']
+let NERDTreeIgnore = ['node_modules']
+let g:NERDTreeIgnore=['node_modules$[[dir]]']
 
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeGlyphReadOnly = '1F512'
 
 " Syntastic config
 " set statusline+=%#warningmsg#
